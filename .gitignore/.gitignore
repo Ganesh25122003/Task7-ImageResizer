@@ -1,0 +1,9 @@
+@"
+# Ignore original and resized images
+images/
+resized_images/
+
+# Python cache
+_pycache_/
+*.pyc
+"@ | Out-File -Encoding utf8 .gitignore
